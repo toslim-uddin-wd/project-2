@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Volg</title>
+        <link rel="stylesheet" href="asset/icons/fontawesome/css/all.min.css" />
+        <link rel="stylesheet" href="asset/css/bootstrap.css" />
+        <link rel="shortcut icon" href="asset/image/fav.png" />
+        <link rel="stylesheet" href="asset/css/style.css" />
+    </head>
+    <body>
+        <!-- navbar start  -->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="asset/image/fav.png" alt="image" /></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    post
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    page
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#"></a></li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Disabled</a>
+                            </li>
+                        </ul>
+                        <!-- Button trigger modal -->
+                        <button class="btn search-btn text-black" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <button class="btn text-white ms-2 bg-primary" data-bs-toggle="modal" data-bs-target="#log-inModal">
+                            Lig In
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5 h1" id="exampleModalLabel">Search box</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Type your word here...</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary">Search</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal-2 -->
+            <div class="modal fade" id="log-inModal" tabindex="-1" aria-labelledby="log-inModalitem" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5 h1" id="log-inModalitem">Log-in</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" />
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- navbar end -->
+        <section class="banner section-margin-top">
+            <div class="container">
+                <div class="banner-section w-100">
+                    <div class="image-area">
+                        <img class="w-100" src="asset/image/banner.jpg" alt="pic" />
+                    </div>
+                    <div class="image-on">
+                        <div class="btn">
+                            <a href="#" class="text-decoration-none">Life Style</a>
+                        </div>
+                        <h2>Fashion young business handsome model man in casual cloth.</h2>
+                        <div class="more d-flex">
+                            <div class="pic">
+                                <img src="asset/image/pic.png" alt="pic" />
+                            </div>
+                            <div class="mt-4 ps-2">
+                                <b>Brooklyn Simmons</b>
+                                <p>20 Jan 2021 4m 30S read</p>
+                            </div>
+                            <div class="ms-auto mt-4">
+                                <a href="#" class="btn">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section articles start -->
+        <section class="articles section-margin-top">
+            <div class="container">
+                <h2 class="mb-5">Most Featured Articles</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="bg-light rounded">
+                            <img src="asset/image/article1.png" class="w-100 mb-3 rounded" alt="image" />
+                            <strong class="">Lightweight Grippable and ready.</strong>
+                            <p class="mt-1">Savannah Nguyen</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="bg-light rounded">
+                            <img src="asset/image/Mask Group-1.png" class="w-100 mb-3" alt="image" />
+                            <strong class="">Lightweight Grippable and ready.</strong>
+                            <p class="mt-1">Savannah Nguyen</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="bg-light rounded">
+                            <img src="asset/image/Mask Group-1.png" class="w-100 mb-3" alt="image" />
+                            <strong class="">Lightweight Grippable and ready.</strong>
+                            <p class="mt-1">Savannah Nguyen</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section articles end-->
+        <!-- section topic start -->
+        <section class="topic section-margin-top bg-light p-5">
+            <div class="container">
+                <div class="menu d-flex justify-content-between">
+                    <h2>Latest Articles Topics</h2>
+                    <ul class="d-flex">
+                        <li class="btn px-3 ms-5 bg-white"><a href="#">Lifestyle</a></li>
+                        <li class="btn px-3 border ms-5">Travel</li>
+                        <li class="btn px-3 border ms-5">Technology</li>
+                        <li class="btn px-3 border ms-5">Search Engines</li>
+                    </ul>
+                </div>
+
+                <div class="row">
+                    <div class="col-8">
+                        <div class="row p-2 bg-white rounded">
+                            <div class="col-6 p-0">
+                                <div>
+                                    <img src="asset/image/1.png" class="rounded w-100 h-100" alt="image" />
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="">
+                                    <strong class="btn bg-body-secondary">Lifestyle</strong>
+                                    <span>20 Jan 2021</span>
+                                    <h3 class="mt-3">Most Refined Mountaineering EquipmenA Design.</h3>
+                                    <div class="d-flex mt-3">
+                                        <div><img src="asset/image/logopic.png" alt="" /></div>
+                                        <div>
+                                            <strong>Esther Howard</strong>
+                                            <p>4m 30S read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row p-2 mt-2 bg-white rounded">
+                            <div class="col-6 p-0">
+                                <div>
+                                    <img src="asset/image/2.png" class="rounded w-100 h-100" alt="image" />
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div>
+                                    <strong class="btn bg-body-secondary">Lifestyle</strong>
+                                    <span>20 Jan 2021</span>
+                                    <h3 class="mt-3">Most Refined Mountaineering EquipmenA Design.</h3>
+                                    <div class="d-flex mt-3">
+                                        <div><img src="asset/image/logopic.png" alt="" /></div>
+                                        <div>
+                                            <strong>Esther Howard</strong>
+                                            <p>4m 30S read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row p-2 mt-3 bg-white rounded">
+                            <div class="col-6 p-0">
+                                <div>
+                                    <img src="asset/image/3.png" class="rounded w-100 h-100" alt="image" />
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="">
+                                    <strong class="btn bg-body-secondary">Lifestyle</strong>
+                                    <span>20 Jan 2021</span>
+                                    <h3 class="mt-3">Most Refined Mountaineering EquipmenA Design.</h3>
+                                    <div class="d-flex mt-3">
+                                        <div><img src="asset/image/logopic.png" alt="" /></div>
+                                        <div>
+                                            <strong>Esther Howard</strong>
+                                            <p>4m 30S read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="rounded">
+                            <div class="bg-white p-2 rounded">
+                                <h4 class="p-3">Recent Blog</h4>
+                                <div class="image">
+                                    <div>
+                                        <img src="asset/image/Mask-Group1.jpg" class="w-100 h-100 rounded" alt="image"/>
+                                    </div>
+                                    <div>
+                                        <img src="asset/image/Mask-Group2.jpg" class="w-100 h-100 rounded mt-4" alt="image"/>
+                                    </div>
+                                    <div>
+                                        <img src="asset/image/Mask-Group3.jpg" class="w-100 h-100 rounded mt-4" alt="image"/>
+                                    </div>
+                                    <div>
+                                        <img src="asset/image/Mask-Group4.jpg" class="w-100 h-100 rounded mt-4" alt="image"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center bg-light mt-3">
+                <a href="#" class="px-3 py-2 rounded bg-primary text-white">Viwe All</a>
+            </div>
+        </section>
+        <!-- section topic end-->
+
+        <section class="video">
+            <div class="container">
+                <div class="heading mb-5">
+                    <h2>Latest Trending Video</h2>
+                </div>
+                <div class="row head-tag text-white">
+                    <div class="col-6">
+                        <div class="video-item-one position-relative">
+                            <img class="w-100 h-100" src="asset/image/bg1.png" alt="img">
+                            <div class="overlay position-absolute"></div>
+                            <div class="play-icon position-absolute d-flex align-items-center justify-content-center">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <div class="image-one p-4  position-absolute">
+                                <div class="content d-flex">
+                                    <a href="#" class="btn bg-white px-3 m text-center text-black">Technology</a>
+                                    <p>20 Jan 2021</p>
+                                </div>
+                                <div>
+                                    <h4 class="">Security isn’t  technology problem it’s about design, too</h4>
+                                    <p class="mb-0">Esther Howard4m 30S Video</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="video-item-two">
+                            <div class="img-up position-relative">
+                                <img class="w-100 h-100" src="asset/image/bg2.png" alt="img">
+                                <div class="overlay-two position-absolute"></div>
+                                <div class="play-icon position-absolute d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                                <div class="image-two p-3 position-absolute ">
+                                    <div class="d-flex">
+                                        <a href="#" class="btn bg-white px-3 m text-center text-black">Technology</a>
+                                        <p>20 Jan 2021</p>
+                                    </div>
+                                    <div class="m">
+                                        <h5 class="">Security isn’t  technology problem it’s about design, too</h5>
+                                        <p class="mb-0">Esther Howard4m 30S Video</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="img-down position-relative">
+                                <img class="w-100 h-100" src="asset/image/bg3.png" alt="img">
+                                <div class="overlay-three position-absolute"></div>
+                                <div class="play-icon position-absolute d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                                <div class="image-three p-3 position-absolute">
+                                    <div class="d-flex">
+                                        <a href="#" class="btn bg-white px-3 text-center text-black">Technology</a>
+                                        <p>20 Jan 2021</p>
+                                    </div>
+                                    <div class="m">
+                                        <h5 class="">Security isn’t  technology problem it’s about design, too</h5>
+                                        <p class="mb-0">Esther Howard4m 30S Video</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="category">
+            <div class="container">
+                <div class="title">
+                    <h2 class="mb-5">Latest Categories</h2>
+                </div>
+
+                <div class="">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="category-item ">
+                               <img class="w-100 h-100" src="asset/image/bg4.png" alt="img">
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="category-item ">
+                               <img class="w-100 h-100" src="asset/image/bg5.png" alt="img">
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="category-item ">
+                               <img class="w-100 h-100" src="asset/image/bg6.png" alt="img">
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="category-item ">
+                               <img class="w-100 h-100" src="asset/image/bg7.png" alt="img">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="news ">
+            <div class="container rounded-3 text-center">
+                <h2>Regular Updete latest News</h2>
+                <div class="form-area d-flex">
+                    <input class="form-control" type="email">
+                    <button class="btn bg-white">submit</button>
+                </div>
+                <p>Established fact will that a reader will subscripton on your services.</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="footer-title">
+                            <h5>How it works</h5>
+                            <p>Home</p>
+                            <p>Contact</p>
+                            <p>About us</p>
+                            <p>Cookie Policy</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-title">
+                            <h5>Navigation</h5>
+                            <p>Life Style</p>
+                            <p>Travel</p>
+                            <p>Search Engines</p>
+                            <p>SEO</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="footer-title">
+                            <h5>Featured</h5>
+                            <p>Shortcodes</p>
+                            <p>Custom widgets</p>
+                            <p>Try it for free</p>
+                            <p>Updete  Video</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-title">
+                            <form class="footer-form-area p-3">
+                                <h5 class="mb-3">Subscribe</h5>
+                                <div class="d-flex">
+                                    <input class="focus-ring-primary mb-3" type="email">
+                                </div>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-light">
+                <p class="text-center text-secondary pb-3">© 2021. All rights reserved Nasrullah </p>
+            </div>
+        </footer>
+
+        <br>
+        <br>
+        <br>
+        
+        
+
+        
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    </body>
+</html>
